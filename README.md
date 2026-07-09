@@ -34,11 +34,11 @@ A clear, non-technical, program-manager–friendly explanation of Retrieval-Augm
         ┌──────────────────────────────┐
         │   LLM + CONTEXT INJECTION    │
         │ (Grounded Response Gen)      │
-        └──────────┬───────────┘
+        └──────────┬───────────────────┘
                    │  Final Answer
                    ▼
                  ┌──────────────────────┐
-                 │       RESPONSE        │
+                 │       RESPONSE       │
                  └──────────────────────┘
 
 
