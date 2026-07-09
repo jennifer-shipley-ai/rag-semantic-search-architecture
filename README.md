@@ -4,6 +4,46 @@ A clear, non-technical, program-manager–friendly explanation of Retrieval-Augm
 
 ---
 
+## 📐 RAG Architecture Diagram
+                 ┌──────────────────────┐
+                 │        USER          │
+                 │  Chat UI / App / API │
+                 └──────────┬───────────┘
+                            │  Query
+                            ▼
+                 ┌──────────────────────┐
+                 │   EMBEDDING MODEL    │
+                 │  (Text → Vector)     │
+                 └──────────┬───────────┘
+                            │  Embedding
+                            ▼
+        ┌──────────────────────────────┐
+        │        VECTOR STORE          │
+        │ (FAISS / Pinecone / Azure)   │
+        └──────────┬──────────┬────────┘
+                   │          │
+                   │   Similarity Search
+                   │          │
+                   ▼          │
+        ┌──────────────────────┐
+        │    RETRIEVER         │
+        │ (Top‑K, Filters)     │
+        └──────────┬───────────┘
+                   │  Retrieved Context
+                   ▼
+        ┌──────────────────────────────┐
+        │   LLM + CONTEXT INJECTION    │
+        │ (Grounded Response Gen)      │
+        └──────────┬───────────┘
+                   │  Final Answer
+                   ▼
+                 ┌──────────────────────┐
+                 │       RESPONSE        │
+                 └──────────────────────┘
+
+
+---
+
 ## 📘 What This Repo Covers
 - RAG architecture overview  
 - Semantic search concepts  
@@ -14,6 +54,7 @@ A clear, non-technical, program-manager–friendly explanation of Retrieval-Augm
 - PM responsibilities in RAG programs  
 
 ---
+
 
 ## 🧠 Why RAG Matters
 RAG is the backbone of enterprise AI because it enables:
