@@ -27,3 +27,32 @@ This repo shows how I understand and communicate RAG architecture at a senior PM
 ---
 
 ## 📁 Repository Structure
+architecture/
+RAG_Flow.md
+RAG_Architecture_Diagram_Description.md
+
+data-sources/
+Data_Sources.md
+
+governance/
+Governance_Considerations.md
+
+
+---
+
+## 🧩 How PMs Use This Architecture
+- Align stakeholders on RAG capabilities  
+- Define requirements for retrieval, indexing, and governance  
+- Coordinate engineering, data, and security teams  
+- Ensure responsible AI practices  
+- Support adoption and change management  
+
+---
+
+## 🔗 Related Repos
+- AI Transformation Playbook  
+- Prompt Engineering Library for PMs  
+- AI Governance Framework  
+
+Together, these repos form a complete AI Transformation PM portfolio.
+
