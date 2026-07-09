@@ -44,7 +44,7 @@ A clear, non-technical, program-manager–friendly explanation of Retrieval-Augm
 
 ---
 
-## 📘 What This Repo Covers
+## 📁 What's Inside
 - RAG architecture overview  
 - Semantic search concepts  
 - Data sources and ingestion  
@@ -65,21 +65,6 @@ RAG is the backbone of enterprise AI because it enables:
 - **Scalable knowledge access** across teams  
 
 This repo shows how I understand and communicate RAG architecture at a senior PM level — without writing code.
-
----
-
-## 📁 Repository Structure
-
-    architecture/
-        RAG_Flow.md
-        RAG_Architecture_Diagram_Description.md
-
-    data-sources/
-        Data_Sources.md
-
-    governance/
-        Governance_Considerations.md
-
 
 ---
 
