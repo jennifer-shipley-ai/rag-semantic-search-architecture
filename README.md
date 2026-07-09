@@ -5,18 +5,19 @@ A clear, non-technical, program-manager–friendly explanation of Retrieval-Augm
 ---
 
 ## 📘 What This Repo Covers
-- RAG architecture overview
-- Semantic search concepts
-- Data sources and ingestion
-- Embeddings and vector indexing
-- Retrieval flow and orchestration
-- Governance and risk considerations
-- PM responsibilities in RAG programs
+- RAG architecture overview  
+- Semantic search concepts  
+- Data sources and ingestion  
+- Embeddings and vector indexing  
+- Retrieval flow and orchestration  
+- Governance and risk considerations  
+- PM responsibilities in RAG programs  
 
 ---
 
 ## 🧠 Why RAG Matters
 RAG is the backbone of enterprise AI because it enables:
+
 - **Grounded answers** using your organization’s data  
 - **Reduced hallucinations**  
 - **Secure, governed retrieval**  
@@ -27,15 +28,16 @@ This repo shows how I understand and communicate RAG architecture at a senior PM
 ---
 
 ## 📁 Repository Structure
-architecture/
-RAG_Flow.md
-RAG_Architecture_Diagram_Description.md
 
-data-sources/
-Data_Sources.md
+    architecture/
+        RAG_Flow.md
+        RAG_Architecture_Diagram_Description.md
 
-governance/
-Governance_Considerations.md
+    data-sources/
+        Data_Sources.md
+
+    governance/
+        Governance_Considerations.md
 
 
 ---
@@ -50,9 +52,9 @@ Governance_Considerations.md
 ---
 
 ## 🔗 Related Repos
-- AI Transformation Playbook  
-- Prompt Engineering Library for PMs  
-- AI Governance Framework  
+- **AI Transformation Playbook**  
+- **Prompt Engineering Library for PMs**  
+- **AI Governance Framework**  
 
 Together, these repos form a complete AI Transformation PM portfolio.
 
